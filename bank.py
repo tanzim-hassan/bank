@@ -1,6 +1,3 @@
-
-
-
 class User:
     def __init__(self,name,id,password) :
         self.name=name
@@ -67,7 +64,6 @@ print(f"Tanjim balance: {balance}")
 
 history = Tanjim.get_transaction_to()
 print(f"Tanjim transaction history: {history}")
-
 loan_appeal = Tanjim.request_loan()
 print(loan_appeal)
 admin = User("Admin")
